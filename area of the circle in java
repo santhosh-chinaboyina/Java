@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.Scanner;
+class circle{
+    
+    double r;
+    
+    double area(){
+        return(22/7.0)*r*r;
+    }
+ }
+ 
+    class Main{
+        public static void main(String[] args){
+            circle c = new circle();
+            c.r = 5.5;
+            System.out.println("Area of cirle with radias "+c.area());
+            System.out.println("radias is:"+c.r);
+            
+        }
+    }
+        
